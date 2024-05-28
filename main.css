@@ -54,6 +54,21 @@ body{
     text-decoration: none;
 }
 
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.error-label {
+    border: 1px solid red;
+    background-color: #fdd;
+    padding: 5px;
+    margin-top: 5px;
+}
+.error-input {
+    border: 1px solid red;
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;

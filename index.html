@@ -286,22 +286,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-7 mb-5">
-                        <form>
+                        <form id="formulario-contato">
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored"> Seu nome</label>
-                                <input type="text" id="nome" class="form-control" required>
+                                <input type="text" id="nome" class="form-control" name="nome" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-bold text-colored"> Seu e-mail</label>
-                                <input type="email" id="email" class="form-control">
+                                <input type="email" id="email" class="form-control" name="email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="" class="form-label fw-bold text-colored"> Seu telefone (opcional)</label>
-                                <input type="tel" id="telefone" class="form-control" required>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
                             </div>
                             <div class="mb-3">
                                 <label for="mensagem" class="form-label fw-bold text-colored"> Sua mensagem</label>
-                                <textarea class="form-control" id="mensagem" required></textarea>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
                             </div>
                             <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
@@ -345,5 +345,10 @@
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/lib/jquery-3.7.1.min.js"></script>
+    <script src="./js/lib/jquery.mask.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="./js/lib/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
